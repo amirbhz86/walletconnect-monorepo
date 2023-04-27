@@ -31,6 +31,8 @@ export async function deeplinkRedirect(request: RequestParams, store: IKeyValueS
 
     const link = `${deeplink}/wc?requestId=${request.id}&sessionTopic=${request.topic}`;
 
+
+    
     const env = getEnvironment();
 
     if (env === ENV_MAP.browser) {

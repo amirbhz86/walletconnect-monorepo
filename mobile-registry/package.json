@@ -1,0 +1,52 @@
+{
+  "name": "@walletconnect/mobile-registry",
+  "version": "1.4.0",
+  "description": "Registry for WalletConnect mobile-to-mobile linking supported Wallets",
+  "scripts": {
+    "build": "node ./scripts/format.js"
+  },
+  "keywords": [
+    "WalletConnect",
+    "mobile",
+    "registry"
+  ],
+  "author": "WalletConnect <walletconnect.org>",
+  "homepage": "https://github.com/WalletConnect/walletconnect-monorepo#readme",
+  "license": "MIT",
+  "main": "registry.json",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WalletConnect/walletconnect-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WalletConnect/walletconnect-monorepo/issues"
+  },
+  "devDependencies": {
+    "@walletconnect/utils": "^1.4.0",
+    "axios": "^0.21.0"
+  },
+  "react-native": {
+    "crypto": "react-native-crypto",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "crypto": "react-native-crypto",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  }
+}
